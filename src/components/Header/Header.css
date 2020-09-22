@@ -1,0 +1,22 @@
+.Header div {
+  padding: 1rem;
+  text-align: center;
+  color: #ffffff;
+  font-size: 1.8rem;
+}
+
+.Header .night {
+  background-color: #111111;
+}
+
+.Header .dawn {
+  background-color: #fd9367;
+}
+
+.Header .day {
+  background-color: #6bbfe2;
+}
+
+.Header .dusk {
+  background-color: #0d4498;
+}

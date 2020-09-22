@@ -1,0 +1,32 @@
+{
+  "env": {
+    "browser": true
+  },
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "plugins": [
+    "react"
+  ],
+  "extends": [
+    "eslint:recommended",
+    "plugin:prettier/recommended",
+    "plugin:react/recommended"
+  ],
+  "rules": {
+    "prettier/prettier": ["error", {}, {"usePrettierrc": true}]
+  },
+  "overrides": [
+    {
+      "files": "*.test.js",
+      "env": {
+        "node": true,
+        "jest": true
+      }
+    }
+  ]
+}
