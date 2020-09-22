@@ -1,5 +1,5 @@
 import React from 'react';
-import { getTimeOfDay } from '../../services/timeOfDay/timeOfDay';
+import getTimeOfDay from 'src/services/timeOfDay/getTimeOfDay';
 import './Header.css';
 
 function Header() {

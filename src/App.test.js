@@ -3,7 +3,9 @@ import App from './App';
 import { shallow } from 'enzyme';
 import Header from './components/Header/Header';
 
-test('renders learn react link', () => {
-  const component = shallow(<App />);
-  expect(component.find(Header)).toHaveLength(1);
+describe('App', () => {
+  it('should contain a Header', () => {
+    const component = shallow(<App />);
+    expect(component.contains(<Header />)).toEqual(true);
+  });
 });

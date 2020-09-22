@@ -3,7 +3,7 @@
  * @param {number} number le nombre à tester
  * @returns {boolean} true si premier, false sinon
  */
-export function computeIfIsPrime(number) {
+export default function computeIfIsPrime(number) {
   // Si le nombre est inférieur à 2, c'est forcément pas un nombre premier
   if (number < 2) {
     return false;
