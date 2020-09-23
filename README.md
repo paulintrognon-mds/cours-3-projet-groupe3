@@ -1,10 +1,16 @@
 # MyDigitalSchool - Qualité logicielle & Tests - Cours 3
 
+# GROUPE 3
+
+  - Membre 1 du groupe 3 :
+  - Membre 2 du groupe 3 :
+  - Membre 3 du groupe 3 :
+
 ## Cloner le repository :
 
 ```
-git clone https://github.com/paulintrognon-mds/cours-3-unit-tests.git
-cd cours-3-unit-tests
+git clone https://github.com/paulintrognon-mds/cours-3-projet-groupe3.git
+cd cours-3-projet-groupe3
 ```
 
 ## Installez les dépendances
