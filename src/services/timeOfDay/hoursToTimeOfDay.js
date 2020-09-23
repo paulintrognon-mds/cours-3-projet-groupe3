@@ -5,7 +5,6 @@
  * Retourne "dusk" (crepuscule) entre 18h et 21h
  * Retourne "night" (nuit) entre 22h et 4h
  */
-export default function hoursToTimeOfDay(hours) {
-  console.log(hours);
+export default function hoursToTimeOfDay(/* hours */) {
   return 'day';
 }
