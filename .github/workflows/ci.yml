@@ -1,0 +1,20 @@
+name: CI
+on: push
+jobs:
+  eslint:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: install modules
+      run: npm ci
+    - name: Run ESLint
+      run: ./node_modules/eslint/bin/eslint.js . --ext .js,.jsx
+
+  tests:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: install modules
+      run: npm ci
+    - name: Run tests
+      run: npm test

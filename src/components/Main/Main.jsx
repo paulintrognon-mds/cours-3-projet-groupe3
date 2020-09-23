@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import NumberInput from './NumberInput/NumberInput';
-import IsPrime from './IsPrime/IsPrime';
-import GetPrimeFactors from './GetPrimeFactors/GetPrimeFactors';
+import NumberInput from './Inputs/NumberInput/NumberInput';
+import RandomInput from './Inputs/RandomInput/RandomInput';
+import Representations from './Representation/Representations';
 import './Main.css';
 
 function Main() {
@@ -13,8 +13,8 @@ function Main() {
   return (
     <div className="Main">
       <NumberInput setNumber={setNumber} />
-      <IsPrime number={number} />
-      <GetPrimeFactors number={number} />
+      <RandomInput setNumber={setNumber} />
+      <Representations number={number} />
     </div>
   );
 }

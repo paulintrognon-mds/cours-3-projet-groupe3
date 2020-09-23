@@ -1,0 +1,18 @@
+.Representation {
+  margin-top: 30px;
+}
+
+.Representation p {
+  margin: 5px;
+}
+
+.Representation-title {
+  font-weight: bold;
+  font-size: 1.4rem;
+}
+
+.Error {
+  color: darkred;
+  font-weight: bold;
+  font-size: 1.2rem;
+}

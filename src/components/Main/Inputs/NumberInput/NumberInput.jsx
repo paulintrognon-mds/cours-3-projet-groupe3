@@ -31,7 +31,7 @@ function NumberInput({ setNumber }) {
     <p>
       <input
         className="NumberInput_input"
-        maxLength={9}
+        maxLength={10}
         onChange={onChangeHandler}
         placeholder="Entrez un nombre entier positif."
       />
