@@ -12,12 +12,13 @@ function IsPrime({ number }) {
     return null;
   }
 
-  // Sinon, on affiche le résultat
-  return (
-    <p className="IsPrime">
-      {isPrime(number) ? 'Votre nombre est premier !' : "Votre nombre n'est pas premier !"}
-    </p>
-  );
+  // Si le nombre est premier, on le dit
+  if (isPrime(number)) {
+    return <p className="IsPrime">Votre nombre est premier !</p>;
+  }
+
+  // Sinon, on dit qu'il n'est pas premier
+  return <p className="IsPrime">Votre nombre n&apos;est pas premier !</p>;
 }
 
 export default IsPrime;
