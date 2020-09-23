@@ -12,9 +12,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
     "test": "react-scripts test --coverage --watchAll=false",
-    "eject": "react-scripts eject"
+    "test:watch": "react-scripts test  --watchAll"
   },
   "eslintConfig": {
     "extends": "react-app"
