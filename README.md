@@ -4,7 +4,7 @@
 
   - Membre 1 du groupe 3 :
   - Membre 2 du groupe 3 :
-  - Membre 3 du groupe 3 :
+  - Membre 3 du groupe 3 : Alexis I.
 
 ## Cloner le repository :
 
