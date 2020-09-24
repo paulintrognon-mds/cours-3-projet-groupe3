@@ -18,4 +18,8 @@ describe('Representation', () => {
     const component = shallow(<Representations number={15} />);
     expect(component.contains(<HexaRepresentation number={15} />)).toEqual(true);
   });
+  it('should have BinaryRepresentation if number = 15', () => {
+    const component = shallow(<Representations number={15} />);
+    expect(component.contains(<BinaryRepresentation number={15} />)).toEqual(true);
+  });
 });
