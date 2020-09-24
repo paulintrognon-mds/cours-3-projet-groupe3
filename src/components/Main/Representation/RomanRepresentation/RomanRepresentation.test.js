@@ -13,4 +13,8 @@ describe('RomanRepresentation', () => {
     const component = shallow(<RomanRepresentation number={undefined} />);
     expect(component.isEmptyRender()).toEqual(true);
   });
+  it('should return number if < 10000', () => {
+    const component = shallow(<RomanRepresentation number={4526} />);
+    expect(component.contains(<p>MMMMDXXVI</p>)).toEqual(true);
+  });
 });
