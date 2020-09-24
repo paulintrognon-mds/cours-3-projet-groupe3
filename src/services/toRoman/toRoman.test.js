@@ -41,4 +41,7 @@ describe('toRoman', () => {
   it('should return M if number = 1000', () => {
     expect(toRoman(1000)).toEqual('M');
   });
+  it('should return nothing if number < 0', () => {
+    expect(toRoman(0)).toEqual('');
+  });
 });
