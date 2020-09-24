@@ -9,4 +9,8 @@ describe('RomanRepresentation', () => {
       component.contains(<p>Ce nombre est trop grand pour être affiché en nombre romain.</p>)
     ).toEqual(true);
   });
+  it('should be null if undefined', () => {
+    const component = shallow(<RomanRepresentation number={undefined} />);
+    expect(component.isEmptyRender()).toEqual(true);
+  });
 });
