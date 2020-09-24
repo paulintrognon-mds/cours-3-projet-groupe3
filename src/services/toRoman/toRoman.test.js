@@ -17,4 +17,7 @@ describe('toRoman', () => {
   it('should return X if number = 10', () => {
     expect(toRoman(10)).toEqual('X');
   });
+  it('should return XL if number = 40', () => {
+    expect(toRoman(40)).toEqual('XL');
+  });
 });
