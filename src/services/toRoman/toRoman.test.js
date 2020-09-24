@@ -11,4 +11,7 @@ describe('toRoman', () => {
   it('should return V if number = 5', () => {
     expect(toRoman(5)).toEqual('V');
   });
+  it('should return X if number = 10', () => {
+    expect(toRoman(10)).toEqual('X');
+  });
 });
