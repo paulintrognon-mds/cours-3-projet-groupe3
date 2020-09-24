@@ -22,4 +22,12 @@ describe('Representation', () => {
     const component = shallow(<Representations number={15} />);
     expect(component.contains(<BinaryRepresentation number={15} />)).toEqual(true);
   });
+  it('should return an error if negative number', () => {
+    const component = shallow(<Representations number={-5} />);
+    expect(
+      component.contains(
+        <p className="Error">Le nombre doit être un nombre entier supérieur ou égal à 1 !</p>
+      )
+    ).toEqual(true);
+  });
 });
