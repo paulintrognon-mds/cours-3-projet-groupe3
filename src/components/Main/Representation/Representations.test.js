@@ -10,4 +10,8 @@ describe('Representation', () => {
     const component = shallow(<Representations number={undefined} />);
     expect(component.isEmptyRender()).toEqual(true);
   });
+  it('should have RomanRepresentation if number = 15', () => {
+    const component = shallow(<Representations number={15} />);
+    expect(component.contains(<RomanRepresentation number={15} />)).toEqual(true);
+  });
 });
