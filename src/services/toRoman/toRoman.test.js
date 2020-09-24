@@ -1,4 +1,3 @@
-import React from 'react';
 import toRoman from './toRoman';
 
 describe('toRoman', () => {
@@ -43,5 +42,8 @@ describe('toRoman', () => {
   });
   it('should return nothing if number < 0', () => {
     expect(toRoman(0)).toEqual('');
+  });
+  it('should return MCMXLIV for 1944', () => {
+    expect(toRoman(1944)).toEqual('MCMXLIV');
   });
 });
