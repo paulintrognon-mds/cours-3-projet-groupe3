@@ -20,4 +20,7 @@ describe('toRoman', () => {
   it('should return XL if number = 40', () => {
     expect(toRoman(40)).toEqual('XL');
   });
+  it('should return L if number = 50', () => {
+    expect(toRoman(50)).toEqual('L');
+  });
 });
