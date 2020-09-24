@@ -2,9 +2,8 @@
 
 # GROUPE 3
 
-  - Membre 1 du groupe 3 :
-
   - Membre 2 du groupe 3 : Bastien Samperio
+  - Membre 1 du groupe 3 :Angélique Clerc
   - Membre 3 du groupe 3 : Alexis I.
 
 
