@@ -35,4 +35,7 @@ describe('toRoman', () => {
   it('should return D if number = 500', () => {
     expect(toRoman(500)).toEqual('D');
   });
+  it('should return CM if number = 900', () => {
+    expect(toRoman(900)).toEqual('CM');
+  });
 });
