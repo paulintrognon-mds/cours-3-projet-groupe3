@@ -38,4 +38,7 @@ describe('toRoman', () => {
   it('should return CM if number = 900', () => {
     expect(toRoman(900)).toEqual('CM');
   });
+  it('should return M if number = 1000', () => {
+    expect(toRoman(1000)).toEqual('M');
+  });
 });
