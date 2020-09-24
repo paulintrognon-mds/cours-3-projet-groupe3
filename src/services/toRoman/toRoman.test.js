@@ -8,4 +8,7 @@ describe('toRoman', () => {
   it('should return IV if number = 4', () => {
     expect(toRoman(4)).toEqual('IV');
   });
+  it('should return V if number = 5', () => {
+    expect(toRoman(5)).toEqual('V');
+  });
 });
