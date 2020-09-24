@@ -32,4 +32,7 @@ describe('toRoman', () => {
   it('should return CD if number = 400', () => {
     expect(toRoman(400)).toEqual('CD');
   });
+  it('should return D if number = 500', () => {
+    expect(toRoman(500)).toEqual('D');
+  });
 });
